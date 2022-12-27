@@ -37,7 +37,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 **General**
 
-    * Why Python programming is awesome
+* Why Python programming is awesome
     
     * What’s an interactive test
     
