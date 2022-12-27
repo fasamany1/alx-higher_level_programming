@@ -21,7 +21,7 @@ Don’t trust the user, always think about all possible edge cases
 
 Read or watch:
 
-    * doctest — Test interactive Python examples (until “26.2.3.7. Warnings” included)
+    * doctest — Test interactive Python examples (until “26.2.3.7. Warnings” included) https://alx-intranet.hbtn.io/rltoken/BwZJVq2MQ1_Vg_3gphoitQ
 
     * doctest – Testing through documentation
 
