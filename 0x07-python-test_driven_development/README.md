@@ -4,7 +4,7 @@
 
 For this project, we expect you to look at this concept:
 
-Never forget a test
+[Never forget a test](https://alx-intranet.hbtn.io/concepts/47)
 
 **Background Context**
 
@@ -21,15 +21,11 @@ Starting from today:
 
 Read or watch:
 
-* doctest — Test interactive Python examples (until “26.2.3.7. Warnings” included) https://alx-intranet.hbtn.io/rltoken/BwZJVq2MQ1_Vg_3gphoitQ
-
-* doctest – Testing through documentation
-
-* Unit Tests in Python
-
-* Unittest module
-
-* Interactive and Non-interactive tests
+* [doctest — Test interactive Python examples (until “26.2.3.7. Warnings” included)](https://alx-intranet.hbtn.io/rltoken/BwZJVq2MQ1_Vg_3gphoitQ) 
+* [doctest – Testing through documentation](https://alx-intranet.hbtn.io/rltoken/96kLRRIOHzsn3VDDXT21HA)
+* [Unit Tests in Python](https://alx-intranet.hbtn.io/rltoken/wfuUl81Q3Nku1qCzdDHAfA)
+* [Unittest module](https://alx-intranet.hbtn.io/rltoken/1v-d9Ol13JabJq8UI6MIPg)
+* [Interactive and Non-interactive tests](https://alx-intranet.hbtn.io/rltoken/lB65hNMXBziXy4A0YLIOog)
 
 **Learning Objectives**
 
@@ -51,18 +47,12 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 * Allowed editors: vi, vim, emacs
     
-* All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
-    
-* All your files should end with a new line
-    
-* The first line of all your files should be exactly #!/usr/bin/python3
-    
-* A README.md file, at the root of the folder of the project, is mandatory
-    
-* Your code should use the pycodestyle (version 2.8.*)
-    
-* All your files must be executable
-    
+* All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)    
+* All your files should end with a new line   
+* The first line of all your files should be exactly #!/usr/bin/python3    
+* A README.md file, at the root of the folder of the project, is mandatory    
+* Your code should use the pycodestyle (version 2.8.*)    
+* All your files must be executable    
 * The length of your files will be tested using wc
     
 **Python Test Cases**
@@ -84,14 +74,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 Write a function that adds 2 integers.
 
-* Prototype: def add_integer(a, b=98):
-    
-* a and b must be integers or floats, otherwise raise a TypeError exception with the message a must be an integer or b must be an integer
-    
-* a and b must be first casted to integers if they are float
-    
-* Returns an integer: the addition of a and b
-    
+* Prototype: def add_integer(a, b=98):    
+* a and b must be integers or floats, otherwise raise a TypeError exception with the message a must be an integer or b must be an integer    
+* a and b must be first casted to integers if they are float    
+* Returns an integer: the addition of a and b    
 * You are not allowed to import any module
     
 * guillaume@ubuntu:~/0x07$ cat 0-main.py
