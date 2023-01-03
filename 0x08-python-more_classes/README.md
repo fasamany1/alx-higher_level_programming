@@ -7,7 +7,7 @@
 * <a href="https://alx-intranet.hbtn.io/rltoken/M-MFweENpRdEfRto_Gzlvg">Object Oriented Programming</a> (Read everything until the paragraph “Inheritance” (excluded))
 * <a href="https://alx-intranet.hbtn.io/rltoken/_Awd8Gn4SBdq2FRd_bY8KA">Object-Oriented Programming</a> (Please be careful: in most of the following paragraphs, the author shows the way you should not use or write a class, in order to help you better understand some concepts and how everything works in Python 3. Make sure you read only the following paragraphs: “General Introduction,” “First-class Everything,” “A Minimal Class in Python,” “Attributes,” “Methods,” “The __init__ Method,” “Data Abstraction, Data Encapsulation, and Information Hiding,” “__str__- and __repr__-Methods,” “Public- Protected- and Private Attributes,” & “Destructor”)
 * <a href="https://alx-intranet.hbtn.io/rltoken/SGQIevRxW6lTgr4jGDzXbw">Class and Instance Attributes</a>
-* classmethods and staticmethods
+* <a href="https://alx-intranet.hbtn.io/rltoken/Ij1EnTg02gtIknOkNv4xGA">classmethods and staticmethods</a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/Ij1EnTg02gtIknOkNv4xGA">Properties vs. Getters and Setters</a> (Mainly the last part “Public instead of Private Attributes”)
 * <a href="https://alx-intranet.hbtn.io/rltoken/iu1ILT-t6FMuZvk7vRvfuQ">str vs repr</a>
 
