@@ -70,7 +70,7 @@ Write an empty class Rectangle that defines a rectangle:
 
 * You are not allowed to import any module
 
-"""
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 0-main.py
 #!/usr/bin/python3
@@ -85,7 +85,7 @@ guillaume@ubuntu:~/0x08$ ./0-main.py
 {}
 guillaume@ubuntu:~/0x08$ 
 
-"""
+</button>
 
 **No test cases needed**
 
@@ -112,7 +112,7 @@ if height is less than 0, raise a ValueError exception with the message height m
 * Instantiation with optional width and height: def __init__(self, width=0, height=0):
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 1-main.py
 #!/usr/bin/python3
@@ -130,7 +130,7 @@ guillaume@ubuntu:~/0x08$ ./1-main.py
 {'_Rectangle__height': 3, '_Rectangle__width': 10}
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</bitton>
 
 **No test cases needed**
 
@@ -160,7 +160,7 @@ if height is less than 0, raise a ValueError exception with the message height m
 if width or height is equal to 0, perimeter is equal to 0
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 2-main.py
 #!/usr/bin/python3
@@ -181,7 +181,7 @@ Area: 8 - Perimeter: 12
 Area: 30 - Perimeter: 26
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **No test cases needed**
 
@@ -213,7 +213,7 @@ print() and str() should print the rectangle with the character #: (see example 
 if width or height is equal to 0, return an empty string
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 3-main.py
 #!/usr/bin/python3
@@ -246,7 +246,7 @@ Area: 8 - Perimeter: 12
 <3-rectangle.Rectangle object at 0x7f92a75a2eb8>
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **Object address can be different**
 
@@ -281,7 +281,7 @@ Write a class Rectangle that defines a rectangle by: (based on 3-rectangle.py)
 * repr() should return a string representation of the rectangle to be able to recreate a new instance by using eval() (see example below)
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 4-main.py
 #!/usr/bin/python3
@@ -344,7 +344,7 @@ False
 True
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **No test cases needed**
 
@@ -378,7 +378,7 @@ Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py)
 * Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 5-main.py
 #!/usr/bin/python3
@@ -400,7 +400,7 @@ Bye rectangle...
 [NameError] name 'my_rectangle' is not defined
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **No test cases needed**
 
@@ -438,7 +438,7 @@ Write a class Rectangle that defines a rectangle by: (based on 5-rectangle.py)
 * Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 6-main.py
 #!/usr/bin/python3
@@ -460,7 +460,7 @@ Bye rectangle...
 0 instances of Rectangle
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **No test cases needed**
 
@@ -502,7 +502,7 @@ Write a class Rectangle that defines a rectangle by: (based on 6-rectangle.py)
 * Print the message Bye rectangle... (... being 3 dots not ellipsis) when an instance of Rectangle is deleted
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 7-main.py
 #!/usr/bin/python3
@@ -560,7 +560,7 @@ Bye rectangle...
 Bye rectangle...
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **No test cases needed**
 
@@ -606,7 +606,7 @@ Write a class Rectangle that defines a rectangle by: (based on 7-rectangle.py)
     * Returns rect_1 if both have the same area value
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 8-main.py
 #!/usr/bin/python3
@@ -635,7 +635,7 @@ Bye rectangle...
 Bye rectangle...
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **No test cases needed**
 
@@ -682,7 +682,7 @@ Write a class Rectangle that defines a rectangle by: (based on 8-rectangle.py)
 * Class method def square(cls, size=0): that returns a new Rectangle instance with width == height == size
 * You are not allowed to import any module
 
-'''
+<button>
 
 guillaume@ubuntu:~/0x08$ cat 9-main.py
 #!/usr/bin/python3
@@ -702,7 +702,7 @@ Area: 25 - Perimeter: 20
 Bye rectangle...
 guillaume@ubuntu:~/0x08$ 
 
-'''
+</button>
 
 **No test cases needed**
 
@@ -730,6 +730,8 @@ The N queens puzzle is the challenge of placing N non-attacking queens on an N×
 * You are only allowed to import the sys module
 
 Read: <a href="https://alx-intranet.hbtn.io/rltoken/dAQmi8RxMnLH-iHBzkz-lw">Queen</a>, <a href="https://alx-intranet.hbtn.io/rltoken/TGXZXdY2Awg8m4mSjlrjjA">Backtracking</a>
+   
+ <button>
 
 julien@ubuntu:~/0x08. N Queens$ ./101-nqueens.py 4
 [[0, 1], [1, 3], [2, 0], [3, 2]]
@@ -740,10 +742,12 @@ julien@ubuntu:~/0x08. N Queens$ ./101-nqueens.py 6
 [[0, 3], [1, 0], [2, 4], [3, 1], [4, 5], [5, 2]]
 [[0, 4], [1, 2], [2, 0], [3, 5], [4, 3], [5, 1]]
 julien@ubuntu:~/0x08. N Queens$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x08-python-more_classes
-File: 101-nqueens.py
+    
+ </button>
    
-Copyright © 2023 ALX, All rights reserved.
+**Repo:**
+
+* m GitHub repository: alx-higher_level_programming
+* Directory: 0x08-python-more_classes
+* File: 101-nqueens.py
+   
