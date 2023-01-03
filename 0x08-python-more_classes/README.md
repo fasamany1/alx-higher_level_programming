@@ -70,7 +70,7 @@ Write an empty class Rectangle that defines a rectangle:
 
 * You are not allowed to import any module
 
-'''
+"""
 
 guillaume@ubuntu:~/0x08$ cat 0-main.py
 #!/usr/bin/python3
@@ -85,7 +85,7 @@ guillaume@ubuntu:~/0x08$ ./0-main.py
 {}
 guillaume@ubuntu:~/0x08$ 
 
-'''
+"""
 
 **No test cases needed**
 
