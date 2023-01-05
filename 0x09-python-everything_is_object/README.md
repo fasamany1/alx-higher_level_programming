@@ -23,7 +23,6 @@ OK. But what about this?
 >>> m
 ['x', 2, 3]
 >>> 
-
 ```
 
 This project is a little bit different than the usual projects. The first part is only questions about Python’s specificity like “What would be the result of…”. You should **read all documentation first (as usual :))**, then take the time to **think and brainstorm with your peers** about what you think and why. **Try to do this without coding anything for a few hours.**
@@ -36,6 +35,7 @@ Note that during interviews for Python positions, **you will most likely have to
 
 All your answers should be only one line in a file. No space before or after the answer.
 
+
 ## Resources
 
 **Read or watch:**
@@ -46,6 +46,7 @@ All your answers should be only one line in a file. No space before or after the
 * <a href="https://alx-intranet.hbtn.io/rltoken/HpKOdgDg6GIoBoG0UPOgPA">Mutation</a> (Only this chapter)
 * <a href="https://alx-intranet.hbtn.io/rltoken/-Gi4PX4srBYFKpZ5Er6sqA">9.12. Cloning lists</a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/NZIom4L-tS0HjpY_uEVr9A">Python tuples: immutable but potentially changing</a>
+
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to <a href="https://alx-intranet.hbtn.io/rltoken/J02m-YVaLqu3rtRDGfg5NQ">explain to anyone</a>, without the help of Google:
@@ -67,6 +68,7 @@ At the end of this project, you are expected to be able to <a href="https://alx-
 * What are the built-in immutable types
 * How does Python pass variables to functions
 
+
 ## Requirements
 
 ### Python Scripts
@@ -86,6 +88,7 @@ At the end of this project, you are expected to be able to <a href="https://alx-
 * No Shebang
 * All your files should end with a new line
 
+
 ## Tasks
 
 #### 0. Who am I?
@@ -99,6 +102,7 @@ Write the name of the function in the file, without ```()```.
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```0-answer.txt```
+
    
 #### 1. Where are you?
 
@@ -112,6 +116,7 @@ Write the name of the function in the file, without ```()```.
 * Directory: ```0x09-python-everything_is_object```
 * File: ```1-answer.txt```
    
+
 #### 2. Right count
 
 In the following code, do ```a``` and ```b``` point to the same object? Answer with ```Yes``` or ```No```.
@@ -119,7 +124,6 @@ In the following code, do ```a``` and ```b``` point to the same object? Answer w
 ```
 >>> a = 89
 >>> b = 100
-
 ```
 
 **Repo:**
@@ -127,6 +131,7 @@ In the following code, do ```a``` and ```b``` point to the same object? Answer w
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```2-answer.txt```
+
    
 #### 3. Right count =
 
@@ -142,6 +147,7 @@ In the following code, do ```a``` and ```b``` point to the same object? Answer w
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```3-answer.txt```
+
    
 #### 4. Right count =
 
@@ -157,6 +163,7 @@ Repo:
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```4-answer.txt```
+
    
 #### 5. Right count =+
 
@@ -172,6 +179,7 @@ In the following code, do ```a``` and ```b``` point to the same object? Answer w
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```5-answer.txt```
+
    
 #### 6. Is equal
 
@@ -188,6 +196,7 @@ What do these 3 lines print?
 * GitHub repository: a```lx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```6-answer.txt```
+
    
 #### 7. Is the same
 
@@ -205,8 +214,9 @@ What do these 3 lines print?
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```7-answer.txt```
+
    
-8. Is really equal
+#### 8. Is really equal
 
 What do these 3 lines print?
 
@@ -221,6 +231,7 @@ What do these 3 lines print?
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```8-answer.txt```
+
    
 ### 9. Is really the same
 
@@ -237,6 +248,7 @@ What do these 3 lines print?
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```9-answer.txt```
+
    
 #### 10. And with a list, is it equal
 
@@ -253,6 +265,7 @@ What do these 3 lines print?
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```10-answer.txt```
+
    
 #### 11. And with a list, is it the same
 
@@ -269,6 +282,7 @@ What do these 3 lines print?
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```11-answer.txt```
+
    
 ### 12. And with a list, is it really equal
 
@@ -285,6 +299,7 @@ What do these 3 lines print?
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```12-answer.txt```
+
    
 #### 13. And with a list, is it really the same
 
@@ -301,6 +316,7 @@ What do these 3 lines print?
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```13-answer.txt```
+
    
 #### 14. List append
 
@@ -318,8 +334,9 @@ print(l2)
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```14-answer.txt```
+
    
-####15. List add
+#### 15. List add
 
 What does this script print?
 
@@ -335,6 +352,7 @@ print(l2)
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```15-answer.txt```
+
    
 #### 16. Integer incrementation
 
@@ -354,6 +372,7 @@ print(a)
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```16-answer.txt```
+
    
 #### 17. List incrementation
 
@@ -393,6 +412,7 @@ print(l1)
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```18-answer.txt```
+
    
 #### 19. Copy a list object
 
@@ -427,7 +447,6 @@ False
 guillaume@ubuntu:~/0x09$ wc -l 19-copy_list.py 
 3 19-copy_list.py
 guillaume@ubuntu:~/0x09$
-
 ```
 
 **No test cases needed**
@@ -437,6 +456,7 @@ guillaume@ubuntu:~/0x09$
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```19-copy_list.py```
+
    
 #### 20. Tuple or not?
 
@@ -452,6 +472,7 @@ Is ```a``` a tuple? Answer with ```Yes``` or ```No```.
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```20-answer.txt```
+
    
 #### 21. Tuple or not?
 
@@ -480,6 +501,7 @@ Is ```a``` a tuple? Answer with ```Yes``` or ```No```.
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```22-answer.txt```
+
    
 #### 23. Tuple or not?
 
@@ -494,6 +516,7 @@ Is ```a``` a tuple? Answer with ```Yes``` or ```No```.
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```23-answer.txt```
+
    
 #### 24. Who I am?
 
@@ -510,6 +533,7 @@ a is b
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```24-answer.txt```
+
    
 #### 25. Tuple or not
 
@@ -526,6 +550,7 @@ a is b
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```25-answer.txt```
+
    
 #### 26. Empty is not empty
 
@@ -542,6 +567,7 @@ a is b
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```26-answer.txt```
+
    
 #### 27. Still the same?
 
@@ -561,6 +587,7 @@ Will the last line of this script print ```139926795932424?``` Answer with ```Ye
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```27-answer.txt```
+
    
 #### 28. Same or not?
 
@@ -580,6 +607,7 @@ Will the last line of this script print ```139926795932424?``` Answer with ```Ye
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```28-answer.txt```
+
    
 #### 29. #pythonic
 
@@ -621,6 +649,7 @@ guillaume@ubuntu:~/0x09$
 * Directory: ```0x09-python-everything_is_object```
 * File: ```100-magic_string.py```
    
+
 #### 30. Low memory cost
 
 Write a class ```LockedClass``` with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called ```first_name```.
@@ -651,6 +680,7 @@ guillaume@ubuntu:~/0x09$
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```101-locked_class.py```
+
    
 #### 31. int 1/3
 
@@ -671,6 +701,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```103-line1.txt, 103-line2.txt```
+
    
 #### 32. int 2/3
 
@@ -697,6 +728,7 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```104-line1.txt, 104-line2.txt, 104-line3.txt, 104-line4.txt, 104-line5.txt```
+
    
 #### 33. int 3/3
 
@@ -720,6 +752,7 @@ Hint: ```NSMALLPOSINTS```, ```NSMALLNEGINTS```
 * GitHub repository: ```alx-higher_level_programming```
 * Directory: ```0x09-python-everything_is_object```
 * File: ```105-line1.txt```
+
    
 #### 34. Clear strings
 
