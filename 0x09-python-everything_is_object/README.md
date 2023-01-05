@@ -16,12 +16,19 @@ BTW, have you ever modified a variable without knowing it or wanting to? I mean:
 OK. But what about this?
 
 <button>
+
 &gt;&gt;&gt; l = [1, 2, 3]
+
 &gt;&gt;&gt; m = l
+
 &gt;&gt;&gt; l[0] = 'x'
+
 &gt;&gt;&gt; m
+
 ['x', 2, 3]
+
 &gt;&gt;&gt; 
+
 </button>
 
 This project is a little bit different than the usual projects. The first part is only questions about Python’s specificity like “What would be the result of…”. You should **read all documentation first (as usual :))**, then take the time to **think and brainstorm with your peers** about what you think and why. **Try to do this without coding anything for a few hours.**
@@ -40,7 +47,7 @@ All your answers should be only one line in a file. No space before or after the
 * <a href="https://alx-intranet.hbtn.io/rltoken/MrtBogRzYETxnSKG97E7Sg">9.10. Objects and values</a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/Ro-7kVXtmWyAeOXEw7RhSg"> 9.11. Aliasing</a>a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/X1lEmkwQRWI3fP4W7bq_qw"> Immutable vs mutable types</a>
-* <a hef="https://alx-intranet.hbtn.io/rltoken/HpKOdgDg6GIoBoG0UPOgPA">Mutation</a> (Only this chapter)
+* <a href="https://alx-intranet.hbtn.io/rltoken/HpKOdgDg6GIoBoG0UPOgPA">Mutation</a> (Only this chapter)
 * <a href="https://alx-intranet.hbtn.io/rltoken/-Gi4PX4srBYFKpZ5Er6sqA">9.12. Cloning lists</a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/NZIom4L-tS0HjpY_uEVr9A">Python tuples: immutable but potentially changing</a>
 
@@ -109,10 +116,15 @@ Write the name of the function in the file, without ().
 #### 2. Right count
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
+
 <button class="favorite styled" type="button">
+
 &gt;&gt;&gt; a = 89
+
 &gt;&gt;&gt; b = 100
+
 </button>
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -122,10 +134,15 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 #### 3. Right count =
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
+
 <button class="favorite styled" type="button">
+
 &gt;&gt;&gt; a = 89
+
 &gt;&gt;&gt; b = 89
+
 </button>
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -135,10 +152,15 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 #### 4. Right count =
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
+
 <button class="favorite styled" type="button">
+
 &gt;&gt;&gt; a = 89
+
 &gt;&gt;&gt; b = a
+
 </button>
+
 Repo:
 
 * GitHub repository: alx-higher_level_programming
@@ -148,10 +170,15 @@ Repo:
 #### 5. Right count =+
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
+
 <button class="favorite styled" type="button">
+
 &gt;&gt;&gt; a = 89
+
 &gt;&gt;&gt; b = a + 1
+
 </button>
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -161,11 +188,13 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 #### 6. Is equal
 
 What do these 3 lines print?
-<button class="favorite styled" type="button">
+
+```
 &gt;&gt;&gt; s1 = "Best School"
 &gt;&gt;&gt; s2 = s1
 &gt;&gt;&gt; print(s1 == s2)
-</button>
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -175,11 +204,16 @@ What do these 3 lines print?
 #### 7. Is the same
 
 What do these 3 lines print?
+
 <button class="favorite styled" type="button">
 &gt;&gt;&gt; s1 = "Best"
+
 &gt;&gt;&gt; s2 = s1
+
 &gt;&gt;&gt; print(s1 is s2)
+
 </button>
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -187,7 +221,7 @@ What do these 3 lines print?
 * File: 7-answer.txt
    
 8. Is really equal
-mandatory
+
 What do these 3 lines print?
 <button class="favorite styled" type="button">
 &gt;&gt;&gt; s1 = "Best School"
