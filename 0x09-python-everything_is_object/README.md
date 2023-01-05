@@ -37,17 +37,18 @@ Note that during interviews for Python positions, **you will most likely have to
 All your answers should be only one line in a file. No space before or after the answer.
 
 ## Resources
+
 **Read or watch:**
 
 * <a href="https://alx-intranet.hbtn.io/rltoken/MrtBogRzYETxnSKG97E7Sg">9.10. Objects and values</a>
-* <a href="https://alx-intranet.hbtn.io/rltoken/Ro-7kVXtmWyAeOXEw7RhSg"> 9.11. Aliasing</a>a>
+* <a href="https://alx-intranet.hbtn.io/rltoken/Ro-7kVXtmWyAeOXEw7RhSg"> 9.11. Aliasing</a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/X1lEmkwQRWI3fP4W7bq_qw"> Immutable vs mutable types</a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/HpKOdgDg6GIoBoG0UPOgPA">Mutation</a> (Only this chapter)
 * <a href="https://alx-intranet.hbtn.io/rltoken/-Gi4PX4srBYFKpZ5Er6sqA">9.12. Cloning lists</a>
 * <a href="https://alx-intranet.hbtn.io/rltoken/NZIom4L-tS0HjpY_uEVr9A">Python tuples: immutable but potentially changing</a>
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to <a href="https://alx-intranet.hbtn.io/rltoken/J02m-YVaLqu3rtRDGfg5NQ">explain to anyone</a>, without the help of Google:
 
 ### General
 
@@ -70,16 +71,16 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ### Python Scripts
 
-* Allowed editors: vi, vim, emacs
+* Allowed editors: ```vi```, ```vim```, ```emacs```
 * All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 * All your files should end with a new line
-* The first line of all your files should be exactly #!/usr/bin/python3
-* A README.md file, at the root of the folder of the project, is mandatory
-* Your code should use the pycodestyle (version 2.8.)
+* The first line of all your files should be exactly ```#!/usr/bin/python3```
+* A ```README.md``` file, at the root of the folder of the project, is mandatory
+* Your code should use the pycodestyle (version ```2.8.*```)
 * All your files must be executable
-* The length of your files will be tested using wc
+* The length of your files will be tested using ```wc```
 
-### .txt Answer Files
+### ```.txt``` Answer Files
 
 * Only one line
 * No Shebang
@@ -91,29 +92,29 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 What function would you use to print the type of an object?
 
-Write the name of the function in the file, without ().
+Write the name of the function in the file, without ```()```.
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 0-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```0-answer.txt```
    
 #### 1. Where are you?
 
 How do you get the variable identifier (which is the memory address in the CPython implementation)?
 
-Write the name of the function in the file, without ().
+Write the name of the function in the file, without ```()```.
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 1-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```1-answer.txt```
    
 #### 2. Right count
 
-In the following code, do a and b point to the same object? Answer with Yes or No.
+In the following code, do ```a``` and ```b``` point to the same object? Answer with ```Yes``` or ```No```.
 
 ```
 >>> a = 89
@@ -123,29 +124,28 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 2-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```2-answer.txt```
    
 #### 3. Right count =
 
-In the following code, do a and b point to the same object? Answer with Yes or No.
+In the following code, do ```a``` and ```b``` point to the same object? Answer with ```Yes``` or ```No```.
 
 ```
 >>> a = 89
 >>> b = 89
 ```
 
-
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 3-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```3-answer.txt```
    
 #### 4. Right count =
 
-In the following code, do a and b point to the same object? Answer with Yes or No.
+In the following code, do ```a``` and ```b``` point to the same object? Answer with ```Yes``` or ```No```.
 
 ```
 >>> a = 89
@@ -154,13 +154,13 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 
 Repo:
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 4-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```4-answer.txt```
    
 #### 5. Right count =+
 
-In the following code, do a and b point to the same object? Answer with Yes or No.
+In the following code, do ```a``` and ```b``` point to the same object? Answer with ```Yes``` or ```No```.
 
 ```
 >>> a = 89
@@ -169,9 +169,9 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 5-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```5-answer.txt```
    
 #### 6. Is equal
 
@@ -185,9 +185,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 6-answer.txt
+* GitHub repository: a```lx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```6-answer.txt```
    
 #### 7. Is the same
 
@@ -202,9 +202,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 7-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```7-answer.txt```
    
 8. Is really equal
 
@@ -218,9 +218,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 8-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```8-answer.txt```
    
 ### 9. Is really the same
 
@@ -234,9 +234,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 9-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```9-answer.txt```
    
 #### 10. And with a list, is it equal
 
@@ -250,9 +250,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 10-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```10-answer.txt```
    
 #### 11. And with a list, is it the same
 
@@ -266,9 +266,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 11-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```11-answer.txt```
    
 ### 12. And with a list, is it really equal
 
@@ -282,9 +282,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 12-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```12-answer.txt```
    
 #### 13. And with a list, is it really the same
 
@@ -298,9 +298,9 @@ What do these 3 lines print?
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 13-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```13-answer.txt```
    
 #### 14. List append
 
@@ -315,9 +315,9 @@ print(l2)
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 14-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```14-answer.txt```
    
 ####15. List add
 
@@ -332,9 +332,9 @@ print(l2)
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 15-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```15-answer.txt```
    
 #### 16. Integer incrementation
 
@@ -351,9 +351,9 @@ print(a)
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 16-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```16-answer.txt```
    
 #### 17. List incrementation
 
@@ -370,9 +370,9 @@ print(l)
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 17-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```17-answer.txt```
    
 #### 18. List assignation
 
@@ -390,13 +390,13 @@ print(l1)
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 18-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```18-answer.txt```
    
 #### 19. Copy a list object
 
-Write a function def copy_list(l): that returns a copy of a list.
+Write a function ```def copy_list(l):``` that returns a copy of a list.
 
 * The input list can contain any type of objects
 * Your file should be maximum 3-line long (no documentation needed)
@@ -434,9 +434,9 @@ guillaume@ubuntu:~/0x09$
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 19-copy_list.py
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```19-copy_list.py```
    
 #### 20. Tuple or not?
 
@@ -444,14 +444,14 @@ guillaume@ubuntu:~/0x09$
 a = ()
 ```
 
-Is a a tuple? Answer with Yes or No.
+Is ```a``` a tuple? Answer with ```Yes``` or ```No```.
 
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 20-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```20-answer.txt```
    
 #### 21. Tuple or not?
 
@@ -459,7 +459,7 @@ Is a a tuple? Answer with Yes or No.
 a = (1, 2)
 ```
 
-Is a a tuple? Answer with Yes or No.
+Is ```a``` a tuple? Answer with ```Yes``` or ```No```.
 
 **Repo:**
 
@@ -473,13 +473,13 @@ Is a a tuple? Answer with Yes or No.
 a = (1)
 ```
 
-Is a a tuple? Answer with Yes or No.
+Is ```a``` a tuple? Answer with ```Yes``` or ```No```.
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 22-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```22-answer.txt```
    
 #### 23. Tuple or not?
 
@@ -487,13 +487,13 @@ Is a a tuple? Answer with Yes or No.
 a = (1, )
 ```
 
-Is a a tuple? Answer with Yes or No.
+Is ```a``` a tuple? Answer with ```Yes``` or ```No```.
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 23-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```23-answer.txt```
    
 #### 24. Who I am?
 
@@ -507,9 +507,9 @@ a is b
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 24-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```24-answer.txt```
    
 #### 25. Tuple or not
 
@@ -523,9 +523,9 @@ a is b
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 25-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```25-answer.txt```
    
 #### 26. Empty is not empty
 
@@ -539,11 +539,11 @@ a is b
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 26-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```26-answer.txt```
    
-27. Still the same?
+#### 27. Still the same?
 
 ```
 >>> id(a)
@@ -554,13 +554,13 @@ a is b
 >>> id(a)
 ```
 
-Will the last line of this script print 139926795932424? Answer with Yes or No.
+Will the last line of this script print ```139926795932424?``` Answer with ```Yes``` or ```No```.
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 27-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```27-answer.txt```
    
 #### 28. Same or not?
 
@@ -573,17 +573,17 @@ Will the last line of this script print 139926795932424? Answer with Yes or No.
 >>> id(a)
 ```
 
-Will the last line of this script print 139926795932424? Answer with Yes or No.
+Will the last line of this script print ```139926795932424?``` Answer with ```Yes``` or ```No```.
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 28-answer.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```28-answer.txt```
    
 #### 29. #pythonic
 
-Write a function magic_string() that returns a string “BestSchool” n times the number of the iteration (see code):
+Write a function ```magic_string()``` that returns a string “BestSchool” n times the number of the iteration (see code):
 
 * Format: see example
 * Your file should be maximum 4-line long (no documentation needed)
@@ -617,13 +617,13 @@ guillaume@ubuntu:~/0x09$
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 100-magic_string.py
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```100-magic_string.py```
    
 #### 30. Low memory cost
 
-Write a class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
+Write a class ```LockedClass``` with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called ```first_name```.
 
 * You are not allowed to import any module
 
@@ -648,9 +648,9 @@ guillaume@ubuntu:~/0x09$
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 101-locked_class.py
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```101-locked_class.py```
    
 #### 31. int 1/3
 
@@ -663,14 +663,14 @@ julien@ubuntu:/python3$
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
-* How many int objects are created by the execution of the first line of the script? (103-line1.txt)
-* How many int objects are created by the execution of the second line of the script (103-line2.txt)
+* How many int objects are created by the execution of the first line of the script? ```(103-line1.txt)```
+* How many int objects are created by the execution of the second line of the script ```(103-line2.txt)```
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 103-line1.txt, 103-line2.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```103-line1.txt, 103-line2.txt```
    
 #### 32. int 2/3
 
@@ -686,17 +686,17 @@ julien@ubuntu:/python3$
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
-* How many int objects are created by the execution of the first line of the script? (104-line1.txt)
-* How many int objects are created by the execution of the second line of the script (104-line2.txt)
-* After the execution of line 3, is the int object pointed by a deleted? Answer with Yes or No (104-line3.txt)
-* After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No (104-line4.txt)
-* How many int objects are created by the execution of the last line of the script (104-line5.txt)
+* How many int objects are created by the execution of the first line of the script? ```(104-line1.txt)```
+* How many int objects are created by the execution of the second line of the script ```(104-line2.txt)```
+* After the execution of line 3, is the int object pointed by ```a``` deleted? Answer with ```Yes``` or ```No``` ```(104-line3.txt)```
+* After the execution of line 4, is the int object pointed by ```b``` deleted? Answer with ```Yes``` or ```No``` ```(104-line4.txt)```
+* How many int objects are created by the execution of the last line of the script ```(104-line5.txt)```
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 104-line1.txt, 104-line2.txt, 104-line3.txt, 104-line4.txt, 104-line5.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```104-line1.txt, 104-line2.txt, 104-line3.txt, 104-line4.txt, 104-line5.txt```
    
 #### 33. int 3/3
 
@@ -710,16 +710,16 @@ julien@ubuntu:/tmp/so$
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
-* Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory? (105-line1.txt)
+* Before the execution of line 2 ```(print("Love")```), how many int objects have been created and are still in memory? ```(105-line1.txt)```
 * Why? (optional blog post :))
 
-Hint: NSMALLPOSINTS, NSMALLNEGINTS
+Hint: ```NSMALLPOSINTS```, ```NSMALLNEGINTS```
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
-* Directory: 0x09-python-everything_is_object
-* File: 105-line1.txt
+* GitHub repository: ```alx-higher_level_programming```
+* Directory: ```0x09-python-everything_is_object```
+* File: ```105-line1.txt```
    
 #### 34. Clear strings
 
@@ -735,14 +735,14 @@ guillaume@ubuntu:/python3$
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration (For answers with numbers use integers, don’t spell out the word):
 
-* How many string objects are created by the execution of the first line of the script? (106-line1.txt)
-* How many string objects are created by the execution of the second line of the script (106-line2.txt)
-* After the execution of line 3, is the string object pointed by a deleted? Answer with Yes or No (106-line3.txt)
-* After the execution of line 4, is the string object pointed by b deleted? Answer with Yes or No (106-line4.txt)
-* How many string objects are created by the execution of the last line of the script (106-line5.txt)
+* How many string objects are created by the execution of the first line of the script? ```(106-line1.txt)```
+* How many string objects are created by the execution of the second line of the script ```(106-line2.txt)```
+* After the execution of line 3, is the string object pointed by ```a``` deleted? Answer with ```Yes``` or ```No`````` (106-line3.txt)```
+* After the execution of line 4, is the string object pointed by ```b``` deleted? Answer with ```Yes``` or ```No``` ```(106-line4.txt)```
+* How many string objects are created by the execution of the last line of the script ```(106-line5.txt)```
 
 **Repo:**
 
-* GitHub repository: alx-higher_level_programming
+* GitHub repository: ```alx-higher_level_programming```
 * Directory: 0x09-python-everything_is_object
-* File: 106-line1.txt, 106-line2.txt, 106-line3.txt, 106-line4.txt, 106-line5.txt
+* File: ```106-line1.txt, 106-line2.txt, 106-line3.txt, 106-line4.txt, 106-line5.txt```
