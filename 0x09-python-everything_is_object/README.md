@@ -4,32 +4,27 @@
 Now that we understand that everything is an object and have a little bit of knowledge, let’s pause and look a little bit closer at how Python works with different types of objects.
 
 BTW, have you ever modified a variable without knowing it or wanting to? I mean:
-<button>
-&gt;&gt;&gt; a = 1
-&gt;&gt;&gt; b = a
-&gt;&gt;&gt; a = 2
-&gt;&gt;&gt; b
+
+```
+>>> a = 1
+>>> b = a
+>>> a = 2
+>>> b
 1
-&gt;&gt;&gt;
-</button>
+>>>
+```
 
 OK. But what about this?
 
-<button>
-
-&gt;&gt;&gt; l = [1, 2, 3]
-
-&gt;&gt;&gt; m = l
-
-&gt;&gt;&gt; l[0] = 'x'
-
-&gt;&gt;&gt; m
-
+```
+>>> l = [1, 2, 3]
+>>> m = l
+>>> l[0] = 'x'
+>>> m
 ['x', 2, 3]
+>>> 
 
-&gt;&gt;&gt; 
-
-</button>
+```
 
 This project is a little bit different than the usual projects. The first part is only questions about Python’s specificity like “What would be the result of…”. You should **read all documentation first (as usual :))**, then take the time to **think and brainstorm with your peers** about what you think and why. **Try to do this without coding anything for a few hours.**
 
@@ -55,6 +50,7 @@ All your answers should be only one line in a file. No space before or after the
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 ### General
+
 * Why Python programming is awesome
 * What is an object
 * What is the difference between a class and an object or instance
@@ -71,7 +67,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * How does Python pass variables to functions
 
 ## Requirements
+
 ### Python Scripts
+
 * Allowed editors: vi, vim, emacs
 * All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 * All your files should end with a new line
@@ -117,13 +115,11 @@ Write the name of the function in the file, without ().
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-<button class="favorite styled" type="button">
+```
+>>> a = 89
+>>> b = 100
 
-&gt;&gt;&gt; a = 89
-
-&gt;&gt;&gt; b = 100
-
-</button>
+```
 
 **Repo:**
 
@@ -135,13 +131,11 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-<button class="favorite styled" type="button">
+```
+>>> a = 89
+>>> b = 89
+```
 
-&gt;&gt;&gt; a = 89
-
-&gt;&gt;&gt; b = 89
-
-</button>
 
 **Repo:**
 
@@ -153,13 +147,10 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-<button class="favorite styled" type="button">
-
-&gt;&gt;&gt; a = 89
-
-&gt;&gt;&gt; b = a
-
-</button>
+```
+>>> a = 89
+>>> b = a
+```
 
 Repo:
 
@@ -171,13 +162,10 @@ Repo:
 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-<button class="favorite styled" type="button">
-
-&gt;&gt;&gt; a = 89
-
-&gt;&gt;&gt; b = a + 1
-
-</button>
+```
+>>> a = 89
+>>> b = a + 1
+```
 
 **Repo:**
 
@@ -190,9 +178,9 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 What do these 3 lines print?
 
 ```
-&gt;&gt;&gt; s1 = "Best School"
-&gt;&gt;&gt; s2 = s1
-&gt;&gt;&gt; print(s1 == s2)
+>>> s1 = "Best School"
+>>> s2 = s1
+>>> print(s1 == s2)
 ```
 
 **Repo:**
@@ -205,14 +193,12 @@ What do these 3 lines print?
 
 What do these 3 lines print?
 
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; s1 = "Best"
+```
+>>> s1 = "Best"
+>>> s2 = s1
+>>> print(s1 is s2)
 
-&gt;&gt;&gt; s2 = s1
-
-&gt;&gt;&gt; print(s1 is s2)
-
-</button>
+```
 
 **Repo:**
 
@@ -223,11 +209,13 @@ What do these 3 lines print?
 8. Is really equal
 
 What do these 3 lines print?
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; s1 = "Best School"
-&gt;&gt;&gt; s2 = "Best School"
-&gt;&gt;&gt; print(s1 == s2)
-</button>
+
+```
+>>> s1 = "Best School"
+>>> s2 = "Best School"
+>>> print(s1 == s2)
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -237,11 +225,13 @@ What do these 3 lines print?
 ### 9. Is really the same
 
 What do these 3 lines print?
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; s1 = "Best School"
-&gt;&gt;&gt; s2 = "Best School"
-&gt;&gt;&gt; print(s1 is s2)
-</button>
+
+```
+>>> s1 = "Best School"
+>>> s2 = "Best School"
+>>> print(s1 is s2)
+``` 
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -251,11 +241,13 @@ What do these 3 lines print?
 #### 10. And with a list, is it equal
 
 What do these 3 lines print?
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; l1 = [1, 2, 3]
-&gt;&gt;&gt; l2 = [1, 2, 3] 
-&gt;&gt;&gt; print(l1 == l2)
-</button>
+
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3] 
+>>> print(l1 == l2)
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -265,12 +257,13 @@ What do these 3 lines print?
 #### 11. And with a list, is it the same
 
 What do these 3 lines print?
-<button class="favorite styled" type="button">
 
-&gt;&gt;&gt; l1 = [1, 2, 3]
-&gt;&gt;&gt; l2 = [1, 2, 3] 
-&gt;&gt;&gt; print(l1 is l2)
-</button>
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3] 
+>>> print(l1 is l2)
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -280,11 +273,13 @@ What do these 3 lines print?
 ### 12. And with a list, is it really equal
 
 What do these 3 lines print?
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; l1 = [1, 2, 3]
-&gt;&gt;&gt; l2 = l1
-&gt;&gt;&gt; print(l1 == l2)
-</button>
+
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = l1
+>>> print(l1 == l2)
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -294,11 +289,13 @@ What do these 3 lines print?
 #### 13. And with a list, is it really the same
 
 What do these 3 lines print?
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; l1 = [1, 2, 3]
-&gt;&gt;&gt; l2 = l1
-&gt;&gt;&gt; print(l1 is l2)
-</button>
+
+```
+>>> l1 = [1, 2, 3]
+>>> l2 = l1
+>>> print(l1 is l2)
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -308,12 +305,14 @@ What do these 3 lines print?
 #### 14. List append
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 l1 = [1, 2, 3]
 l2 = l1
 l1.append(4)
 print(l2)
-</button>
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -323,12 +322,14 @@ print(l2)
 ####15. List add
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 l1 = [1, 2, 3]
 l2 = l1
 l1 = l1 + [4]
 print(l2)
-</button>
+```
+
 **Repo:**
 
 * GitHub repository: alx-higher_level_programming
@@ -338,14 +339,15 @@ print(l2)
 #### 16. Integer incrementation
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 def increment(n):
     n += 1
 
 a = 1
 increment(a)
 print(a)
-</button>
+```
 
 **Repo:**
 
@@ -356,14 +358,15 @@ print(a)
 #### 17. List incrementation
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 def increment(n):
     n.append(4)
 
 l = [1, 2, 3]
 increment(l)
 print(l)
-</button>
+```
 
 **Repo:**
 
@@ -374,7 +377,8 @@ print(l)
 #### 18. List assignation
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 def assign_value(n, v):
     n = v
 
@@ -382,7 +386,7 @@ l1 = [1, 2, 3]
 l2 = [4, 5, 6]
 assign_value(l1, l2)
 print(l1)
-</button>
+```
 
 **Repo:**
 
@@ -398,7 +402,7 @@ Write a function def copy_list(l): that returns a copy of a list.
 * Your file should be maximum 3-line long (no documentation needed)
 * You are not allowed to import any module
 
-<button class="favorite styled" type="button">
+```
 guillaume@ubuntu:~/0x09$ cat 19-main.py
 #!/usr/bin/python3
 copy_list = __import__('19-copy_list').copy_list
@@ -422,8 +426,9 @@ True
 False
 guillaume@ubuntu:~/0x09$ wc -l 19-copy_list.py 
 3 19-copy_list.py
-guillaume@ubuntu:~/0x09$ 
-</button>
+guillaume@ubuntu:~/0x09$
+
+```
 
 **No test cases needed**
 
@@ -434,9 +439,11 @@ guillaume@ubuntu:~/0x09$
 * File: 19-copy_list.py
    
 #### 20. Tuple or not?
-<button class="favorite styled" type="button">
+
+```
 a = ()
-</button>
+```
+
 Is a a tuple? Answer with Yes or No.
 
 
@@ -447,9 +454,11 @@ Is a a tuple? Answer with Yes or No.
 * File: 20-answer.txt
    
 #### 21. Tuple or not?
-<button class="favorite styled" type="button">
+
+```
 a = (1, 2)
-</button >
+```
+
 Is a a tuple? Answer with Yes or No.
 
 **Repo:**
@@ -459,9 +468,10 @@ Is a a tuple? Answer with Yes or No.
 * File: 21-answer.txt
    
 #### 22. Tuple or not?
-<button class="favorite styled" type="button">
+
+```
 a = (1)
-</button>
+```
 
 Is a a tuple? Answer with Yes or No.
 
@@ -472,9 +482,11 @@ Is a a tuple? Answer with Yes or No.
 * File: 22-answer.txt
    
 #### 23. Tuple or not?
-<button class="favorite styled" type="button">
+
+```
 a = (1, )
-</button>
+```
+
 Is a a tuple? Answer with Yes or No.
 
 **Repo:**
@@ -486,11 +498,12 @@ Is a a tuple? Answer with Yes or No.
 #### 24. Who I am?
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 a = (1)
 b = (1)
 a is b
-</button>
+```
 
 **Repo:**
 
@@ -501,11 +514,12 @@ a is b
 #### 25. Tuple or not
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 a = (1, 2)
 b = (1, 2)
 a is b
-</button>
+```
 
 **Repo:**
 
@@ -516,11 +530,12 @@ a is b
 #### 26. Empty is not empty
 
 What does this script print?
-<button class="favorite styled" type="button">
+
+```
 a = ()
 b = ()
 a is b
-</button>
+```
 
 **Repo:**
 
@@ -529,14 +544,15 @@ a is b
 * File: 26-answer.txt
    
 27. Still the same?
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; id(a)
+
+```
+>>> id(a)
 139926795932424
-&gt;&gt;&gt; a
+>>> a
 [1, 2, 3, 4]
-&gt;&gt;&gt; a = a + [5]
-&gt;&gt;&gt; id(a)
-</button>
+>>> a = a + [5]
+>>> id(a)
+```
 
 Will the last line of this script print 139926795932424? Answer with Yes or No.
 
@@ -547,14 +563,15 @@ Will the last line of this script print 139926795932424? Answer with Yes or No.
 * File: 27-answer.txt
    
 #### 28. Same or not?
-<button class="favorite styled" type="button">
-&gt;&gt;&gt; a
+
+```
+>>> a
 [1, 2, 3]
-&gt;&gt;&gt; id (a)
+>>> id (a)
 139926795932424
-&gt;&gt;&gt; a += [4]
-&gt;&gt;&gt; id(a)
-</button>
+>>> a += [4]
+>>> id(a)
+```
 
 Will the last line of this script print 139926795932424? Answer with Yes or No.
 
@@ -571,7 +588,8 @@ Write a function magic_string() that returns a string “BestSchool” n times t
 * Format: see example
 * Your file should be maximum 4-line long (no documentation needed)
 * You are not allowed to import any module
-<button class="favorite styled" type="button">
+
+```
 guillaume@ubuntu:~/0x09$ cat 100-main.py
 #!/usr/bin/python3
 magic_string = __import__('100-magic_string').magic_string
@@ -593,7 +611,7 @@ BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestScho
 guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py 
 4 100-magic_string.py
 guillaume@ubuntu:~/0x09$ 
-</button>
+```
 
 **No test cases needed**
 
@@ -608,7 +626,8 @@ guillaume@ubuntu:~/0x09$
 Write a class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
 
 * You are not allowed to import any module
-<button class="favorite styled" type="button">
+
+```
 guillaume@ubuntu:~/0x09$ cat 101-main.py
 #!/usr/bin/python3
 LockedClass = __import__('101-locked_class').LockedClass
@@ -623,7 +642,7 @@ except Exception as e:
 guillaume@ubuntu:~/0x09$ ./101-main.py
 [AttributeError] 'LockedClass' object has no attribute 'last_name'
 guillaume@ubuntu:~/0x09$ 
-</button>
+```
 
 **No test cases needed**
 
@@ -634,12 +653,13 @@ guillaume@ubuntu:~/0x09$
 * File: 101-locked_class.py
    
 #### 31. int 1/3
-<button class="favorite styled" type="button">
+
+```
 julien@ubuntu:/python3$ cat int.py 
 a = 1
 b = 1
 julien@ubuntu:/python3$ 
-</button>
+```
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
@@ -653,7 +673,8 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * File: 103-line1.txt, 103-line2.txt
    
 #### 32. int 2/3
-<button class="favorite styled" type="button">
+
+```
 julien@ubuntu:/python3$ cat int.py 
 a = 1024
 b = 1024
@@ -661,7 +682,7 @@ del a
 del b
 c = 1024
 julien@ubuntu:/python3$ 
-</button>
+```
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
@@ -678,13 +699,14 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * File: 104-line1.txt, 104-line2.txt, 104-line3.txt, 104-line4.txt, 104-line5.txt
    
 #### 33. int 3/3
-<button class="favorite styled" type="button">
+
+```
 julien@twix:/tmp/so$ cat int.py 
 print("I")
 print("Love")
 print("Python")
 julien@ubuntu:/tmp/so$ 
-</button>
+```
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
@@ -700,7 +722,8 @@ Hint: NSMALLPOSINTS, NSMALLNEGINTS
 * File: 105-line1.txt
    
 #### 34. Clear strings
-<button class="favorite styled" type="button">
+
+```
 guillaume@ubuntu:/python3$ cat string.py 
 a = "SCHL"
 b = "SCHL"
@@ -708,7 +731,7 @@ del a
 del b
 c = "SCHL"
 guillaume@ubuntu:/python3$ 
-</button>
+```
 
 Assuming we are using a CPython implementation of Python3 with default options/configuration (For answers with numbers use integers, don’t spell out the word):
 
