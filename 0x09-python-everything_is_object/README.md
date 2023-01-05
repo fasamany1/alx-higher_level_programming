@@ -1,16 +1,18 @@
-## 0x09. Python - Everything is object
+# 0x09. Python - Everything is object
 
-Background Context
+## Background Context
 Now that we understand that everything is an object and have a little bit of knowledge, let’s pause and look a little bit closer at how Python works with different types of objects.
 
 BTW, have you ever modified a variable without knowing it or wanting to? I mean:
-
+<button>
 >>> a = 1
 >>> b = a
 >>> a = 2
 >>> b
 1
->>> 
+>>>
+</button>
+
 OK. But what about this?
 
 >>> l = [1, 2, 3]
