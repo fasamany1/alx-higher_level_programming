@@ -829,14 +829,14 @@ guillaume@ubuntu:~/0x0B$
 
 Write a script that reads ```stdin``` line by line and computes metrics:
 
-* Input format: ```&lt;IP Address&gt; - [&lt;date&gt;] "GET /projects/260 HTTP/1.1" &lt;status code&gt; &lt;file size&gt;```
+* Input format: ```<IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>```
 * Each 10 lines and after a keyboard interruption (```CTRL + C```), prints those statistics since the beginning:
-    * Total file size: ```File size: &lt;total size&gt;```
+    * Total file size: ```File size: <total size>```
     * where is the sum of all previous (see input format above)
     * Number of lines by status code:
         * possible status code: ```200```, ```301```, ```400```, ```401```, ```403```, ```404```, ```405``` and ```500```
         * if a status code doesn’t appear, don’t print anything for this status code
-        * format: ```&lt;status code&gt;: &lt;number&gt;```
+        * format: ```<status code>: <number>```
         * status codes should be printed in ascending order
 
 ```
