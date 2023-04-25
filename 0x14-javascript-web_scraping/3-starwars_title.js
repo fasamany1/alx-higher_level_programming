@@ -1,18 +1,12 @@
 #!/usr/bin/node
 
-"use strict"
 const request = require('request');
-const movieId = process.argv[2];
-const url = `https://swapi-api.alx-tools.com/api/films/${movieId}`;
+const starWarsUrl = `https://swapi-api.alx-tools.com/api/films/`.concat(process.argv[2]);
 
-// Make a GET request to the specified URL
-request.get(url, (error, response, body) => {
-  if (error) {
-    console.log(error);
-  } else {
+// Make a request to the specified URL
+request(starWarsUrl, function (_err, _res, body) {
     // Parse the response body as JSON
-    const data = JSON.parse(body);
+    body = JSON.parse(body);
     // Print the movie title
-    console.log(movie.title);
-  }
+    console.log(body.title);
 });
