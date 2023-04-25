@@ -11,10 +11,8 @@ request.get(url, (error, response, body) => {
     console.log(error);
   } else {
     // Parse the response body as JSON
-    const movie = JSON.parse(body);
-    // Print the movie title if the episode number matches the given ID
-    if (movie.episode_id====parseInt(movieId)) {
-      console.log(movie.title);
-    }
+    const data = JSON.parse(body);
+    // Print the movie title
+    console.log(movie.title);
   }
 });
