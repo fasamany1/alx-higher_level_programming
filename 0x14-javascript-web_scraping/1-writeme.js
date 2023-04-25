@@ -1,4 +1,5 @@
 #!/usr/bin/node
+"use strict"
 
 // Load the necessary modules
 const fs = require('fs');
